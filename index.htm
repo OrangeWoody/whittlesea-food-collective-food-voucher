@@ -37,6 +37,35 @@ div.WordSection1
 	{page:WordSection1;}
 -->
 </style>
+	<style>
+    /* 全局设置字体和边距 */
+    body {
+        font-family: Arial, sans-serif;
+        padding: 10px;
+        margin: 0;
+        line-height: 1.6;
+    }
+
+    /* 设置文本和容器自适应 */
+    p, h1, h2, h3 {
+        max-width: 100%;
+        word-wrap: break-word; /* 防止文本溢出 */
+    }
+
+    /* 图片宽度自适应 */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+</style>
+
+<style>
+    /* 让表格和 div 容器在移动端自动缩放 */
+    div, table {
+        max-width: 100%;
+        overflow-x: auto; /* 允许横向滚动，防止文字挤在一起 */
+    }
+</style>
 
 </head>
 
